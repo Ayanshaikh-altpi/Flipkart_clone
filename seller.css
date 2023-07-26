@@ -1,0 +1,75 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+}
+.nav{
+    height:80px ;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.logo{
+    color: blue;
+}
+.logo p{
+   font-size: 15px;
+   letter-spacing: 1px;
+
+}
+.logo span{
+    font-size: 25px;
+}
+.opt ul{
+    display: flex;
+    list-style: none;
+   
+}
+.opt ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: grey;
+}
+.selling{
+    background: yellow;
+    height: 45px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+.selling a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.container1{
+    height: 200px;
+    width: 100%;
+    background: url('https://static-assets-web.flixcart.com/fk-sp-static/images/revamp_banner_web.svg');
+    background-size: cover;
+}
+.container1 p{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 30px;
+    left:40px;
+}
+.container1 input{
+    height: 40px;
+    width:250px;
+    position: relative;
+    top:30px;
+    left:40px ;
+    outline: none;
+    color: grey;
+}
+
+
